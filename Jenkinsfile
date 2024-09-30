@@ -21,13 +21,6 @@ pipeline{
             }
         }
 
-        stage('Deploy') {
-            steps {
-                sh '''
-                    oc project omjoyb-greetings
-                    oc start-build greeting-service --follow --wait
-                '''
-            }
-        }
+        // Add the "Deploy" stage here
     }
 }
