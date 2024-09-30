@@ -12,5 +12,8 @@
   "devDependencies": {
     "eslint": "^7.13.0",
     "mocha": "^8.2.1"
+  },
+  "dependencies": {
+    "greeting-service": "file:"
   }
 }
